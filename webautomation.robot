@@ -14,6 +14,6 @@ Automation
     Click Element    xpath=//a[text()='About']
     Wait Until Page Contains    About Us    10s
     Scroll Element Into View    xpath=//*[text()='Rohit Singh']
-    Sleep    2s
+    Sleep    4s
     Capture Page Screenshot
     [Teardown]    Close Browser
