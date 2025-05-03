@@ -11,6 +11,7 @@ Automation
     Open Browser    ${URL}    Chrome
     Maximize Browser Window
     Wait Until Page Contains    Taste of Patna    10s
+    Capture Page Screenshot
     Click Element    xpath=//a[text()='About']
     Wait Until Page Contains    About Us    10s
     Scroll Element Into View    xpath=//*[text()='Rohit Singh']
